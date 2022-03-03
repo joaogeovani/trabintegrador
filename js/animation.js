@@ -18,7 +18,6 @@ var drops = [];
 //1 = y co-ordinate of the drop(same for every drop initially)
 for(var x = 0; x < columns; x++)
     drops[x] = 1; 
-
 //drawing the characters
 function draw()
 {
