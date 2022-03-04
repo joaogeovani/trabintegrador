@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: rgba(23, 222, 20, 0.5);
+    color: rgba(23, 114, 21, 0.664);
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     left: 0;
 }
 .container {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.671);
     margin: 50px 10%;
     padding: 3rem;
     position: relative;
@@ -30,4 +30,12 @@ body {
 .sec-1 {
 
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+p{
+    font-size: 22px;
+ }
+
+li{
+    font-size: 22px;
 }
