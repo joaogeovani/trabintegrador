@@ -60,3 +60,30 @@ h2 {
 li {
     font-size: 22px;
 }
+
+ul{
+    padding: 15px;
+}
+
+.macterminal{
+
+   padding-top: 10px;
+   text-align: center;
+   width: 550px;
+   height: 300px; 
+}
+
+.macterminal img{
+   display:flexbox;
+   width: 100%;
+}
+
+#BoxImg{
+   align-items: center;
+   text-align: center;
+}
+
+.pMac{
+    padding-top: 10px;
+    text-align: justify;
+}
