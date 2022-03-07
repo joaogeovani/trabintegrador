@@ -5,8 +5,12 @@
     margin: 0;
     padding: 0;
     color: rgba(255, 255, 255, 0.5);
+    
 }
 
+*::-webkit-scrollbar{
+    display: none;
+}
 body {
     background-color: black;
 
@@ -18,24 +22,41 @@ body {
     top: 0;
     left: 0;
 }
+
 .container {
     background-color: rgba(0, 0, 0, 0.671);
     margin: 50px 10%;
     padding: 3rem;
     position: relative;
     z-index: 1;
+    border: 0.1px solid rgba(23, 222, 20, 0.5);
 }
 
 
 .sec-1 {
-
     background-color: rgba(0, 0, 0, 0.671);
 }
 
-p{
-    font-size: 22px;
- }
+.sec-1 p span {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+}
 
-li{
+
+p {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+h1 {
+    margin: 15px 0px;
+}
+
+h2 {
+    margin: 5px 0;
+}
+
+
+li {
     font-size: 22px;
 }
