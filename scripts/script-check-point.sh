@@ -463,16 +463,15 @@ echo '
             <h1>Referências</h1>
             <audio src="https://firebasestorage.googleapis.com/v0/b/holzgabriel-com.appspot.com/o/y2meta.com_-_clubbed_to_death_-_Matrix_soundtrack_192_kbps_2.mp3?alt=media&token=47f44b85-f68a-4b09-947d-88f9141ab75e" type="audio/mpeg" controls autoplay></audio>
                 <ul>
-                    <li><a href="https://www.hostgator.com.br/blog/o-que-e-cli/">https://www.hostgator.com.br/blog/o-que-e-cli/</a></li>
+               <li>
+                    <a href="https://www.hostgator.com.br/blog/o-que-e-cli/">https://www.hostgator.com.br/blog/o-que-e-cli/</a></li>
                     <li><a href="https://e-tinet.com/linux/terminal-linux/#:~:text=Em%20linhas%20b%C3%A1sicas%2C%20o%20terminal,do%20usu%C3%A1rio%20com%20o%20Linux">https://e-tinet.com/linux/terminal-linux/#:~:text=Em%20linhas%20b%C3%A1sicas%2C%20o%20terminal,do%20usu%C3%A1rio%20com%20o%20Linux</a></li>
                     <li><a href="https://marquesfernandes.com/self/como-comecar-a-usar-a-linha-de-comando-terminal-no-linux-tutorial-para-iniciantes/">https://marquesfernandes.com/self/como-comecar-a-usar-a-linha-de-comando-terminal-no-linux-tutorial-para-iniciantes/</a></li>
                     <li><a href="https://pt.wikihow.com/Abrir-o-Terminal-no-Mac">https://pt.wikihow.com/Abrir-o-Terminal-no-Mac</a></li>
                     <li><a href="https://blog.cod3r.com.br/terminal-no-macos-e-linux/">https://blog.cod3r.com.br/terminal-no-macos-e-linux/</a></li>
                     <li><a href="https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/">https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/</a></li>
-                    <li><a href="https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/">https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/</a></li>
-                    <li><a href="https://computers.tutsplus.com/pt/tutorials/10-terminal-commands-that-every-mac-user-should-know--mac-4825"></a>https://computers.tutsplus.com/pt/tutorials/10-terminal-commands-that-every-mac-user-should-know--mac-4825</li>
-
-                </ul>
+                    <li><a href="https://computers.tutsplus.com/pt/tutorials/10-terminal-commands-that-every-mac-user-should-know--mac-4825">https://computers.tutsplus.com/pt/tutorials/10-terminal-commands-that-every-mac-user-should-know--mac-4825</a></li>
+              </ul>
             <section class="sec-1">
               <nav>
                 <ul>
