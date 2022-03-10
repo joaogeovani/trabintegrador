@@ -36,42 +36,65 @@ echo '
 
       <section class="sec-1">
         <h2>Um pouco de história.</h2>
-        <p>
+      <p>
           Tudo comeco com o terminal burro Eram chamados assim porque tinham
-            pouco poder de processamento, pois saimplesmente processam um número
-            limitado de comandos de exibição e nenhum programa podia ser
-            executado nesses dispositivos. A maioria dos terminais burros foi
-            projetada para rodar com o sistema operacional FreeBSD e foi
-            amplamente utilizada na década de 1970 até o início da década de
-            1980 devido aos custos relativamente altos dos computadores. As
-            organizações geralmente tinham apenas muito poucos computadores em
-            relação ao número de usuários; portanto, eles precisavam desses
-            terminais burros baratos para permitir que vários usuários
-            acessassem os poucos computadores mais poderosos. Os primeiros
-            terminais de usuário conectados a computadores foram os
-            teleimpressores eletromecânicos (TTY), como o modelo 33 Teletype,
-            originalmente usado para telegrafia, ou o Friden Flexowriter.
-            Terminais de impressão como o DECwriter foram desenvolvidos
-            posteriormente. No entanto, os terminais de impressão eram limitados
-            pela velocidade com que o papel podia ser impresso, uma vez que o
-            registro em papel era desnecessário para uso interativo. Os
-            primeiros monitores de vídeo de computador às vezes eram apelidados
-            de "TTYs de vidro" e usavam portas lógicas individuais, sem CPU. Uma
-            das motivações para o desenvolvimento do microprocessador foi
-            simplificar e reduzir a eletrônica necessária em um terminal (como o
-            Datapoint 2200). A maioria dos terminais estava conectada a
-            mainframes e muitas vezes tinha uma tela verde ou âmbar. Os
-            terminais normalmente se comunicam com o computador por meio de uma
-            porta serial, geralmente usando a interface serial RS-232. Os
-            sistemas IBM se comunicavam por um cabo coaxial usando o protocolo
-            Systems Network Architecture (SNA) da IBM. Devido aos métodos de
-            fabricação mais recentes, os computadores e a tecnologia de
-            monitores tornaram-se mais poderosos e mais baratos de fabricar,
-            levando o terminal burro a se tornar obsoleto tanto em função quanto
-            em conceito. O terminal inteligente e o thin client são versões
-            modernas do terminal burro, pelo menos em conceito, ambos capazes de
-            realizar algum processamento localmente, mas estão conectados a um
-            computador mais poderoso, como um servidor.
+          pouco poder de processamento, pois saimplesmente processam um número
+          limitado de comandos de exibição e nenhum programa podia ser
+          executado nesses dispositivos. </p>
+        <p>
+          A maioria dos terminais burros foi
+          projetada para rodar com o sistema operacional FreeBSD e foi
+          amplamente utilizada na década de 1970 até o início da década de
+          1980 devido aos custos relativamente altos dos computadores. </p>
+        <p>
+          As
+          organizações geralmente tinham apenas muito poucos computadores em
+          relação ao número de usuários; portanto, eles precisavam desses
+          terminais burros baratos para permitir que vários usuários
+          acessassem os poucos computadores mais poderosos. </p>
+        <p>
+          Os primeiros
+          terminais de usuário conectados a computadores foram os
+          teleimpressores eletromecânicos (TTY), como o modelo 33 Teletype,
+          originalmente usado para telegrafia, ou o Friden Flexowriter.
+        </p>
+        <p>
+          Terminais de impressão como o DECwriter foram desenvolvidos
+          posteriormente. No entanto, os terminais de impressão eram limitados
+          pela velocidade com que o papel podia ser impresso, uma vez que o
+          registro em papel era desnecessário para uso interativo.
+        </p>
+        <p>
+          Os
+          primeiros monitores de vídeo de computador às vezes eram apelidados
+          de "TTYs de vidro" e usavam portas lógicas individuais, sem CPU.
+        </p>
+        <p>
+          Uma
+          das motivações para o desenvolvimento do microprocessador foi
+          simplificar e reduzir a eletrônica necessária em um terminal (como o
+          Datapoint 2200). A maioria dos terminais estava conectada a
+          mainframes e muitas vezes tinha uma tela verde ou âmbar.
+        </p>
+        <p>
+          Os
+          terminais normalmente se comunicam com o computador por meio de uma
+          porta serial, geralmente usando a interface serial RS-232.
+        </p>
+        <p>
+          Os
+          sistemas IBM se comunicavam por um cabo coaxial usando o protocolo
+          Systems Network Architecture (SNA) da IBM. Devido aos métodos de
+          fabricação mais recentes, os computadores e a tecnologia de
+          monitores tornaram-se mais poderosos e mais baratos de fabricar,
+          levando o terminal burro a se tornar obsoleto tanto em função quanto
+          em conceito.
+        </p>
+        <p>
+          O terminal inteligente e o thin client são versões
+          modernas do terminal burro, pelo menos em conceito, ambos capazes de
+          realizar algum processamento localmente, mas estão conectados a um
+          computador mais poderoso, como um servidor.
         </p>
       </section>
 
@@ -80,6 +103,7 @@ echo '
           <ul>
             <li><a href="comousar.html">Como usar.</a></li>
             <li><a href="porqueusar.html">Por que usar o terminal?</a></li>
+            <li><a href="referen.html">Referências</a></li>
           </ul>
         </nav>
       </section>
@@ -94,8 +118,7 @@ echo '
 '> index.html
 mkdir css
 cd css
-echo "
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+echo " @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 * {
     margin: 0;
@@ -172,8 +195,7 @@ ul{
 cd ..
 mkdir js
 cd js
-echo 
-'
+echo '
 // geting canvas by Boujjou Achraf
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
@@ -357,7 +379,7 @@ echo '
   <main>
 
     <canvas id="c"></canvas>
-    <div class='container'>
+    <div class="container">
       <h1>Por que usar o terminal?</h1>
 
       <p class="sec-1"> Embora a maioria dos usuários finais não se importe com sistemas baseados em comandos, os
@@ -411,6 +433,7 @@ echo '
           <ul>
             <li><a href="comousar.html">Como usar.</a></li>
             <li><a href="index.html">O que é o terminal?</a></li>
+            <li><a href="referen.html">Referências</a></li>
           </ul>
         </nav>
       </section>
@@ -423,4 +446,47 @@ echo '
 </html>
 '> porqueusar.html
 
+echo '
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referências</title>
+    <link rel="stylesheet" href="css/style.css">
+    <body>
+        <main>
 
+          <canvas id="c"></canvas>
+          <div class="container">
+            <h1>Referências</h1>
+            <audio src="https://firebasestorage.googleapis.com/v0/b/holzgabriel-com.appspot.com/o/y2meta.com_-_clubbed_to_death_-_Matrix_soundtrack_192_kbps_2.mp3?alt=media&token=47f44b85-f68a-4b09-947d-88f9141ab75e" type="audio/mpeg" controls autoplay></audio>
+                <ul>
+                    <li><a href="https://www.hostgator.com.br/blog/o-que-e-cli/">https://www.hostgator.com.br/blog/o-que-e-cli/</a></li>
+                    <li><a href="https://e-tinet.com/linux/terminal-linux/#:~:text=Em%20linhas%20b%C3%A1sicas%2C%20o%20terminal,do%20usu%C3%A1rio%20com%20o%20Linux">https://e-tinet.com/linux/terminal-linux/#:~:text=Em%20linhas%20b%C3%A1sicas%2C%20o%20terminal,do%20usu%C3%A1rio%20com%20o%20Linux</a></li>
+                    <li><a href="https://marquesfernandes.com/self/como-comecar-a-usar-a-linha-de-comando-terminal-no-linux-tutorial-para-iniciantes/">https://marquesfernandes.com/self/como-comecar-a-usar-a-linha-de-comando-terminal-no-linux-tutorial-para-iniciantes/</a></li>
+                    <li><a href="https://pt.wikihow.com/Abrir-o-Terminal-no-Mac">https://pt.wikihow.com/Abrir-o-Terminal-no-Mac</a></li>
+                    <li><a href="https://blog.cod3r.com.br/terminal-no-macos-e-linux/">https://blog.cod3r.com.br/terminal-no-macos-e-linux/</a></li>
+                    <li><a href="https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/">https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/</a></li>
+                    <li><a href="https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/">https://www.apptuts.net/tutorial/mac/comandos-uteis-terminal-do-mac/</a></li>
+                    <li><a href="https://computers.tutsplus.com/pt/tutorials/10-terminal-commands-that-every-mac-user-should-know--mac-4825"></a>https://computers.tutsplus.com/pt/tutorials/10-terminal-commands-that-every-mac-user-should-know--mac-4825</li>
+
+                </ul>
+            <section class="sec-1">
+              <nav>
+                <ul>
+                  <li><a href="comousar.html">Como usar.</a></li>
+                  <li><a href="index.html">O que é o terminal?</a></li>
+                  <li><a href="porqueusar.html">Por que usar?</a></li>
+                </ul>
+              </nav>
+            </section>
+          </div>
+
+        </main>
+      </body>
+      <script src="./js/animation.js"></script>
+
+      </html>
+'> referen.html
